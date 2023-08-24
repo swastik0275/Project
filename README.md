@@ -15,23 +15,23 @@ This project provides a custom user model called `CustomUser` that inherits from
    cd myproject
 
 ## Create and activate a virtual environment:
-
-python -m venv venv
-venv\Scripts\activate
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
 
 ## Install project dependencies:
-
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 ## Run database migrations:
-
-python manage.py makemigrations
-python manage.py migrate
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
 
 ## Run tests:
-
-python manage.py test
+   ```bash
+   python manage.py test
 
 ## Start the development server:
-
-python manage.py runserver
+   ```bash
+   python manage.py runserver
